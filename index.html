@@ -27,11 +27,19 @@
             poster: ""
         };
         var myPlayer = amp("azuremediaplayer", myOptions);
-        myPlayer.src([{ src: "//tokawaamsv3-jpea.streaming.media.azure.net/dcb739fe-3be3-451e-8fa1-4720cd6ac320/the_sea_also_rises_FKY.ism/manifest", type: "application/vnd.ms-sstr+xml" }, ]);
+        myPlayer.src(
+          [{ src: "//tokawaamsv3-jpea.streaming.media.azure.net/2f7d4c50-f8ec-4885-9225-79234c946ab2/20200509-voicerecog-test.ism/manifest", type: "application/vnd.ms-sstr+xml" },
+          ],
+          [
+            { src: "//tokawaamsv3storage001.blob.core.windows.net/asset-35ad691b-62b3-4384-a299-ffb83cc31c53/transcript.vtt?sp=rl&st=2020-05-09T05:22:14Z&se=2120-05-10T05:22:00Z&sv=2019-10-10&sr=b&sig=YYu3etV2a0aQORfKzdi6tFiPFbjR4dU8xvwzZu4YPIw%3D", srclang: "ja", kind: "subtitles", label: "Japanese" }
+          ]
+        );
     </script>
     <footer>
         <br />
         <p></p>
     </footer>
 </body>
+  
+  Streaming locator Id: 43f29049-2d84-4b7e-b88d-726887106491
 </html>
